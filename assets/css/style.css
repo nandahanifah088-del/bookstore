@@ -1,0 +1,40 @@
+.container-fluid{
+    width: 100%;
+}
+.card-img-top {
+  width: 100%;
+  height: 400px; /* kamu bisa ubah ke 350px atau 450px kalau mau lebih kecil/besar */
+  object-fit: cover; /* biar proporsional dan nggak ketarik aneh */
+  object-position: center; /* fokus di tengah gambar */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.profile-dropdown {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.profile-img:hover {
+  border-color: #0d6efd;
+}
+.profile-dropdown .badge {
+  font-size: 0.7em;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+.badge {
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      padding: 3px 7px;
+      font-size: 12px;
+      margin-left: 5px;
+    }
